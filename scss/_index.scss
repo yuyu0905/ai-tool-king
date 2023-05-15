@@ -1,0 +1,33 @@
+.tool {
+    padding: 250px;
+    border-radius: 160px;
+    &-list {
+        gap: 24px;
+    }
+}
+
+.card {
+    width: 32%;
+    display: flex;
+    flex-direction: column;
+    &-top {
+        overflow: hidden;
+        width: 100%;
+        height: 312px;
+        img {
+            height: 100%;
+            width: 100%;
+            transition: transform 0.3s ease-in;
+            &:hover {
+                transform: scale(1.2);
+            }
+        }
+    }
+    &-content {
+        flex: 1 1 0%;
+        padding: 20px 32px;
+    }
+    &-text {
+        padding: 20px 32px;
+    }
+}
